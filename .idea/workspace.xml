@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7280fc1-9d58-45e3-97aa-9cdbf3a3ba6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scarper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_scarper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/proxy_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
