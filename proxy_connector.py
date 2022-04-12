@@ -1,15 +1,18 @@
 import requests
-import http.client
 
-proxies = {'https':'https://118.127.102.149:12776'}
-r = requests.get('http://grizzlykr.com.ua/', proxies = proxies)
-conn = http.client.HTTPConnection("ifconfig.me")
-conn.request("GET", "/ip")
-result = conn.getresponse().read()
-print(result)
-print(r.status_code, r.reason)
+
+proxies = {
+    'https': 'https://109.72.231.37:1080'
+}
 
 
 
 
 
+
+def get_connection():
+    print('[+] Trying to set a connection')
+    data = requests.get('https://ipinfo.io/json', proxies=proxies, timeout=30000)
+    print(data.text)
+
+get_connection()

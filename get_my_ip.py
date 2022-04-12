@@ -1,8 +1,6 @@
-import http.client
+import requests
 
 
+data = requests.get('https://ipinfo.io/json')
 
-conn = http.client.HTTPConnection("ifconfig.me")
-conn.request("GET", "/ip")
-result = conn.getresponse().read()
-print(result)
+print(data.text)
