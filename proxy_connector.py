@@ -1,10 +1,15 @@
 import requests
+import http.client
 
-proxies = {
-   'http': 'http://proxy.example.com:8080',
-   'https': 'http://secureproxy.example.com:8090',
-}
+proxies = {'https':'https://118.127.102.149:12776'}
+r = requests.get('http://grizzlykr.com.ua/', proxies = proxies)
+conn = http.client.HTTPConnection("ifconfig.me")
+conn.request("GET", "/ip")
+result = conn.getresponse().read()
+print(result)
+print(r.status_code, r.reason)
 
-url = 'http://http://grizzlykr.com.ua/'
 
-response = requests.post(url, proxies=proxies)
+
+
+
